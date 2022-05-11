@@ -48,7 +48,7 @@ async def next_page(bot, query):
         offset = 0
     search = BUTTONS.get(key)
     if not search:
-        await query.answer("You are using one of my old messages, please Ask again.", show_alert=True)
+        await query.answer("You Are Using My Old Messages🥲,Try Asking Again 🤠.", show_alert=True)
         return
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
@@ -64,7 +64,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📽️[{get_size(file.file_size)}]{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"🎀[{get_size(file.file_size)}]🎀{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -76,7 +76,7 @@ async def next_page(bot, query):
                     text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
-                    text=f"📽️[{get_size(file.file_size)}]",
+                    text=f"🎀[{get_size(file.file_size)}]🎀",
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
@@ -95,16 +95,10 @@ async def next_page(bot, query):
              InlineKeyboardButton(f"📃 Pages {round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
-        btn.append(
-            [InlineKeyboardButton("❌CLOSE❌", callback_data="close_data")]
-        )
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"🗓 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
              InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
-        btn.append(
-            [InlineKeyboardButton("❌CLOSE❌", callback_data="close_data")]
-        )
     else:
         btn.append(
             [
@@ -113,12 +107,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
-        btn.append(
-            [InlineKeyboardButton("❌CLOSE❌", callback_data="close_data")]
-        )
-    btn.insert(0, [
-        InlineKeyboardButton(text="⚠️HOW TO DOWNLOAD⚠️", url="https://t.me/TMMAINCHANNEL/4")
-    ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -147,7 +135,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase')
+            k = await query.message.edit('This Movie Not Found In My DataBase')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -188,7 +176,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         if (st.status == "creator") or (str(userid) in ADMINS):
             await del_all(query.message, grp_id, title)
         else:
-            await query.answer("You need to be Group Owner or an Auth User to do that!", show_alert=True)
+            await query.answer("You need to be Group Owner or an Auth User to do that -_- !", show_alert=True)
     elif query.data == "delallcancel":
         userid = query.from_user.id
         chat_type = query.message.chat.type
@@ -432,7 +420,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await query.answer('Closed :)')
+        await query.answer('What Are You Looking 🤔')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -659,7 +647,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🤩[{get_size(file.file_size)}]{file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"🎀[{get_size(file.file_size)}]🎀{file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -672,7 +660,7 @@ async def auto_filter(client, msg, spoll=False):
                     callback_data=f'{pre}#{file.file_id}',
                 ),
                 InlineKeyboardButton(
-                    text=f"🤩[{get_size(file.file_size)}]",
+                    text=f"🎀[{get_size(file.file_size)}]🎀",
                     callback_data=f'{pre}_#{file.file_id}',
                 ),
             ]
@@ -687,19 +675,10 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text=f"🗓 1/{round(int(total_results) / 10)}", callback_data="pages"),
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
-        btn.append(
-            [InlineKeyboardButton("❌CLOSE❌", callback_data="close_data")]
-        )
     else:
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
-        btn.append(
-            [InlineKeyboardButton("❌CLOSE❌", callback_data="close_data")]
-        )
-    btn.insert(0, [
-        InlineKeyboardButton(text="⚠️HOW TO DOWNLOAD⚠️", url="https://t.me/TmMainChannel/4")
-    ])
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
@@ -735,7 +714,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"🤭 <STRONG>{search}</STRONG>\n𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 ♪♪ \n✨@TechnoMoviesCollection\n\n⚠️𝐍𝐨𝐭𝐞:♪→𝗜𝗳 𝗬𝗼𝘂 𝗗𝗼𝗻'𝘁 𝗞𝗻𝗼𝘄 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗜𝘁 𝗧𝗵𝗲𝗻 𝗧𝘆𝗽𝗲 #How 𝗜𝗻 𝗧𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n\nMade By @TmMainChannel"
+        cap = f"🎀<STRONG>{search}</STRONG>🎀\n🤖 𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗 𝗕𝗬 ♪♪ \n✨@TechnoMoviesCollection\n⚠️𝐍𝐨𝐭𝐞:♪→𝗜𝗳 𝗬𝗼𝘂 𝗗𝗼𝗻'𝘁 𝗞𝗻𝗼𝘄 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗜𝘁 𝗧𝗵𝗲𝗻 𝗧𝘆𝗽𝗲 #How 𝗜𝗻 𝗧𝗵𝗲 𝗚𝗿𝗼𝘂𝗽\n\n➥ 𝗝𝗼𝗶𝗻 ➼ @TmMainChannel"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
