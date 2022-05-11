@@ -24,6 +24,11 @@
             "required": true,
             "value": "enteryourbottoken123456789"
         },
+        "BOT_USERNAME": {
+            "description": "enter Bot Username Without @",
+            "required": true,
+            "value": "TmOfficialRobot"
+        },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
             "required": true,
