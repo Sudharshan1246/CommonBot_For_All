@@ -1,6 +1,6 @@
 <h2 align="centre"><i><b>💖TECHNO MINDZ BOT-1💝</i></b></h2>
 
-
+# COMMAN BOT FOR ALL MY TECHNOMINDZ SUBSCRIBERS
 
 <p align="center"><a href="https://t.me/technomindzchat"><img src="https://telegra.ph/file/b417bdd01331179d5787c.jpg" width="500"></a></p>
 
@@ -41,8 +41,6 @@
 <a href="https://t.me/tmmainchannel"><img src="https://img.shields.io/badge/Join-Main%20Channel-green.svg?style=for-the-badge&logo=Telegram">
 <a href="https://t.me/technomindzchat"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram">
 
-## MODAL ROBOT
- * [<i><b>@TMElsaRobot</i></b>](https://t.me/tmelsarobot)
   
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -86,6 +84,7 @@
 ## CUSTOM FILE CAPTION
 ```
 <code>{file_name}</code>
+MADE BY @TmMainChannel
   
 ```
 ## CREATED BY
