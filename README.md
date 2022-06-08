@@ -1,8 +1,8 @@
-<h2 align="centre"><i><b>💖TECHNO MINDZ BOT-1💝</i></b></h2>
+# <h2 align="centre"><i><b>💖TECHNO MINDZ BOT-1💝</i></b></h2>
 
 ## COMMAN BOT FOR ALL MY TECHNOMINDZ SUBSCRIBERS
 
-<p align="center"><a href="https://t.me/technomindzchat"><img src="https://telegra.ph/file/b417bdd01331179d5787c.jpg" width="800"></a></p>
+<p align="center"><a href="https://t.me/technomindzchat"><img src="https://telegra.ph/file/b417bdd01331179d5787c.jpg" width="500"></a></p>
 
 # Introduction
 
@@ -14,9 +14,13 @@
 
 ## IF YOU NEED ANY ASSISTANCE FEEL FREE TO CONTACT
 ## YOUTUBE  [SUPPORT_CHANNEL](https://t.me/technomindzchat)
-## Contact [<i>RAVI</i>](https://t.me/technomindzyt)
 
-## DEPLOY
+
+# DEPLOY
+
+## ⚠️Fork The Repo And Deploy Or Unwanted Problems May Occur...
+## After Forking Before Deplying Change The link of your github [HERE](https://github.com/TechnoMindz/CommonBot_For_All/edit/master/README.md#L28) Below Shown In The Picture 👇👇👇
+<p align="center"><a href="https://t.me/technomindzchat"><img src="https://telegra.ph/file/7dfbf86b1da43cc40208f.jpg" width="800"></a></p>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
