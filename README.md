@@ -2,30 +2,30 @@
 
 ## COMMAN BOT FOR ALL MY TECHNOMINDZ SUBSCRIBERS
 
-<p align="center"><a href="https://t.me/technomindzchat"><img src="https://telegra.ph/file/b417bdd01331179d5787c.jpg" width="500"></a></p>
+<p align="center"><a href="https://t.me/Mass_movie_request"><img src="[https://telegra.ph/file/b417bdd01331179d5787c.jpg]" width="500"></a></p>
 
 # Introduction
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Techno+Mindz!;Created+by+RAVINANDAN!;A+simple+and+a+basic+Bot!;A+Advanced+AutoFilter+Bot;Don't+Forget+To+Subcribe;Techno+Mindz+in+YouTube;)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+MCU_Linkz!;Created+by+sudharshan!;A+simple+and+a+basic+Bot!;A+Advanced+AutoFilter+Bot;Don't+Forget+To+Subcribe;Techno+Mindz+in+YouTube;)
 </p>
 </h1>
 <a href="https://www.youtube.com/c/TechnoMindz">
   <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-red?logo=youtube" width="150">
 
 ## IF YOU NEED ANY ASSISTANCE FEEL FREE TO CONTACT
-## YOUTUBE  [SUPPORT_CHANNEL](https://t.me/technomindzchat)
+## YOUTUBE  [SUPPORT_CHANNEL](https://t.me/Mass_movie_request)
 
 
 # DEPLOY
 
 ## ⚠️Fork The Repo And Deploy Or Unwanted Problems May Occur...
-## After Forking Before Deplying Change The link of your github [HERE](https://github.com/TechnoMindz/CommonBot_For_All/edit/master/README.md#L28) Below Shown In The Picture 👇👇👇
-<p align="center"><a href="https://t.me/technomindzchat"><img src="https://telegra.ph/file/7dfbf86b1da43cc40208f.jpg" width="800"></a></p>
+## After Forking Before Deplying Change The link of your github [HERE]([](https://github.com/Sudharshan1246/CommonBot_For_All/edit/master/README.md)) Below Shown In The Picture 👇👇👇
+<p align="center"><a href="https://t.me/Mass_movie_request"><img src="[https://telegra.ph/file/7dfbf86b1da43cc40208f.jpg]" width="800"></a></p>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/TechnoMindz/CommonBot_For_All">
+<a href="https://heroku.com/deploy?template=https://github.com/Sudharshan1246/CommonBot_For_All">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -42,8 +42,8 @@
 
 ### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
 
-<a href="https://t.me/tmmainchannel"><img src="https://img.shields.io/badge/Join-Main%20Channel-green.svg?style=for-the-badge&logo=Telegram">
-<a href="https://t.me/technomindzchat"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram">
+<a href="https://t.me/MCU_Linkz"><img src="https://img.shields.io/badge/Join-Main%20Channel-green.svg?style=for-the-badge&logo=Telegram">
+<a href="https://t.me/Mass_movie_request"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram">
 
   
 ### Required Variables
@@ -93,10 +93,10 @@ MADE BY @TmMainChannel
 ```
 ## CREATED BY
  
-* [꧁𓊈𒆜🆁🅰🆅🅸🅽🅰🅽🅳🅰🅽𒆜𓊉꧂](https://t.me/TechnoMINDZYT)
+* [Sudharshan](https://t.me/Sudharshan_T)
 ## Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 ## Thanks to 
 
- - Thanks To [꧁𓊈𒆜🆁🅰🆅🅸🅽🅰🅽🅳🅰🅽𒆜𓊉꧂](https://github.com/TechnoMindz) for Their Awesome [Unlimited Filter Bot](https://github.com/TechnoMindz/CommonBot_For_All) And [AutoFilterBoT](https://github.com/TechnoMindz/CommonBot_For_All)
+ - Thanks To [Sudharshan](https://github.com/Sudharshan1246) for Their Awesome [Unlimited Filter Bot](https://github.com/Sudharshan1246/CommonBot_For_All) And [AutoFilterBoT](https://github.com/Sudharshan1246/CommonBot_For_All)
  - Thanks To All Of My Subscribers😊
