@@ -1,6 +1,6 @@
 # <h2 align="centre"><i><b>💖MCU_Linkz BOT-1💝</i></b></h2>
 
-## COMMAN BOT FOR ALL MY MCU_Linkz SUBSCRIBERS
+## COMMAN BOT FOR ALL MY MCU_Linkz SUBSCRIBERS...
 
 </p>
 </h1>
