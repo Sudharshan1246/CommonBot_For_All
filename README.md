@@ -69,6 +69,7 @@
 ## CUSTOM FILE CAPTION
 ```
 <code>{file_name}</code>
-MADE BY @TmMainChannel
+
+Join 📤:@MCU_Linkz 
   
 ```
