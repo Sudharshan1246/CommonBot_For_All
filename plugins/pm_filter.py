@@ -404,10 +404,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/Tmmainchannel')
+            InlineKeyboardButton('𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/MCU_Linkz')
             ],[
-            InlineKeyboardButton('🧊 𝐌𝐨𝐯𝐢𝐞𝐬', url='https://t.me/technomoviescollection'),
-            InlineKeyboardButton('📢 𝐂𝐡𝐚𝐭𝐭𝐢𝐧𝐠', url='https://t.me/Technomindzchat')
+            InlineKeyboardButton('🧊 𝐌𝐨𝐯𝐢𝐞𝐬', url='https://t.me/Mass_movie_request')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat='')
             ],[
@@ -440,13 +439,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('📢 𝐉𝐨𝐢𝐧 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/TmMainChannel')
+            InlineKeyboardButton('📢 𝐉𝐨𝐢𝐧 𝐌𝐚𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥', url='https://t.me/MCU_Linkz')
             ],[
-            InlineKeyboardButton('🆘 Get Help', url='https://t.me/Technomindzchat'),
-            InlineKeyboardButton('🌴 My Group', url='https://t.me/technomoviescollection')
+            InlineKeyboardButton('🌴 My Group', url='https://t.me/Mass_movie_request')
             ],[
-            InlineKeyboardButton('🧑‍💻 Developer', url='https://t.me/TechnomindzYt'),
-            InlineKeyboardButton('♥️ Source', url='https://t.me/Technomindzchat')
+            InlineKeyboardButton('🧑‍💻 Developer', url='https://t.me/Technokillerbot'),
+            InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start')
         ]]
