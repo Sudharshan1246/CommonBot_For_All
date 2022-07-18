@@ -1,4 +1,4 @@
-# Kanged From @TroJanZheX
+# Kanged From @MCU_Linkz 
 import asyncio
 import re
 import ast
