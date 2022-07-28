@@ -443,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🌴 My Group', url='https://t.me/Mass_movie_request')
             ],[
-            InlineKeyboardButton('🧑‍💻 Developer', url='https://t.me/Technokillerbot'),
+            InlineKeyboardButton('🧑‍💻 Developer', url='https://t.me/Sudharshan_T),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start')
@@ -780,7 +780,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("I couldn't find anything related to that🥴\nDid you mean any one of these?🤔\nIf Not Found Ask Here @TechnoMindzChat",
+    await msg.reply("I couldn't find anything related to that🥴\nDid you mean any one of these?🤔\nIf Not Found Ask Here @Mass_movie_request",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
