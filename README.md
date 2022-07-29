@@ -72,4 +72,22 @@
 
 Join 📤:@MCU_Linkz 
   
+   
 ```
+
+
+### ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴜᴘᴅᴀᴛᴇꜱ🎑
+
+<a href="https://t.me/MCU_Linkz"><img src="https://img.shields.io/badge/Join-Main%20Channel-green.svg?style=for-the-badge&logo=Telegram">
+<a href="https://t.me/Mass_movie_request"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram">
+  
+## CREATED BY
+ 
+* [Sudharshan](https://t.me/Sudharshan_T)
+## Selling The Codes To Other People For Money Is *Strictly Prohibited*.
+
+## Thanks to 
+
+ - Thanks To [Sudharshan](https://github.com/Sudharshan1246) for Their Awesome [Unlimited Filter Bot](https://github.com/Sudharshan1246/CommonBot_For_All-1) And [AutoFilterBoT](https://github.com/Sudharshan1246/CommonBot_For_All-1)
+ - Thanks To All Of My Subscribers😊
+
